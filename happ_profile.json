@@ -1,0 +1,2594 @@
+{
+  "version": 2,
+  "meta": {
+    "name": "Russia VPN Configs",
+    "description": "Auto-generated from GitHub repo",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt",
+    "updated_at": "2026-05-31T14:26:35.139708Z",
+    "update_interval": 7200,
+    "total_configs": 114
+  },
+  "proxies": [
+    {
+      "name": "🇦🇹 Austria, Vienna | [BL]",
+      "type": "vless",
+      "server": "147.45.71.176",
+      "port": 6443,
+      "uuid": "157bb36f-035e-405c-b8c6-67fa1a7c0640",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "github.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+        "shortId": "abab34c40ed6c10a",
+        "serverName": "github.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇨🇿 Czechia, Mašťov | [BL]",
+      "type": "vless",
+      "server": "cz.helper-internet.com",
+      "port": 443,
+      "uuid": "2d0b825d-cbe0-46b7-98e9-e955b99e71c9",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cz.helper-internet.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+        "shortId": "ff776ff77be48b88",
+        "serverName": "cz.helper-internet.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇨🇿 Czechia, Prague | [BL]",
+      "type": "vless",
+      "server": "103.119.18.153",
+      "port": 443,
+      "uuid": "69439c87-cf97-41df-af37-580a1ad5fdb9",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.microsoft.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "1RNN1WNZn5tNGW6IyPYvGWVPybifzXGkbZ_IbGDDb2w",
+        "shortId": "06491bcf",
+        "serverName": "www.microsoft.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇪🇪 Estonia, Tallinn | [BL]",
+      "type": "vless",
+      "server": "77.239.126.155",
+      "port": 44444,
+      "uuid": "4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "apple.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "t7zppcy4X6f3INaKOTOX6hsc84UoykNlRiKYKkA-TXo",
+        "shortId": "",
+        "serverName": "apple.com",
+        "spiderX": "/"
+      }
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | [BL]",
+      "type": "vless",
+      "server": "79.137.184.170",
+      "port": 6443,
+      "uuid": "157bb36f-035e-405c-b8c6-67fa1a7c0640",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "github.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+        "shortId": "abab34c40ed6c10a",
+        "serverName": "github.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "185.18.250.127",
+      "port": 2096,
+      "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "69565ce3109804e7813f98ee.mmdbay.blog",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/graphql",
+        "headers": {
+          "Host": "69565ce3109804e7813f98ee.mmdbay.blog"
+        }
+      }
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "185.18.250.127",
+      "port": 2096,
+      "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "69565ce3109804e7813f98ee.mmdbay.blog",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/graphql",
+        "headers": {
+          "Host": "69565ce3109804e7813f98ee.mmdbay.blog"
+        }
+      }
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "185.18.250.127",
+      "port": 2096,
+      "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "69565ce3109804e7813f98ee.mmdbay.blog",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/graphql",
+        "headers": {
+          "Host": "69565ce3109804e7813f98ee.mmdbay.blog"
+        }
+      }
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "140.248.187.74",
+      "port": 80,
+      "uuid": "7f979bbf-9357-44e8-a6ae-80927fbd851d",
+      "network": "ws",
+      "tls": false,
+      "ws-settings": {
+        "path": "ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048",
+        "headers": {
+          "Host": "rb24.ir"
+        }
+      }
+    },
+    {
+      "name": "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+      "type": "vless",
+      "server": "146.75.119.82",
+      "port": 80,
+      "uuid": "7f979bbf-9357-44e8-a6ae-80927fbd851d",
+      "network": "ws",
+      "tls": false,
+      "ws-settings": {
+        "path": "ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048",
+        "headers": {
+          "Host": "rb24.ir"
+        }
+      }
+    },
+    {
+      "name": "🇫🇷 France, Gravelines | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.65.57",
+      "port": 80,
+      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Gravelines | 🌐 | [BL]",
+      "type": "vless",
+      "server": "fastly.com",
+      "port": 80,
+      "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Gravelines | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.65.57",
+      "port": 80,
+      "uuid": "InternetAzadRobot",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Gravelines | 🌐 | [BL]",
+      "type": "vless",
+      "server": "fastly.com",
+      "port": 80,
+      "uuid": "InternetAzadRobot",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Roubaix | [BL]",
+      "type": "vless",
+      "server": "151.101.193.57",
+      "port": 80,
+      "uuid": "TIGNAL-CRYPTO",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Roubaix | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.129.57",
+      "port": 80,
+      "uuid": "InternetAzadRobot-AliKiller",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Roubaix | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.193.57",
+      "port": 80,
+      "uuid": "InternetAzadRobot-AliKiller",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Roubaix | 🌐 | [BL]",
+      "type": "vless",
+      "server": "fastly.com",
+      "port": 80,
+      "uuid": "InternetAzadRobot-AliKiller",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Roubaix | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.129.57",
+      "port": 80,
+      "uuid": "TIGNAL-CRYPTO",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇫🇷 France, Strasbourg | [BL]",
+      "type": "vless",
+      "server": "down.spectrum.vu",
+      "port": 443,
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "network": "grpc",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "down.spectrum.vu",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ckd_LwbbFo8BYf9vT84B20P6EL1n6vl2yMxoXc6X4SA",
+        "shortId": "f2a6d1c1e4b8",
+        "serverName": "down.spectrum.vu",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+      "type": "vless",
+      "server": "213.165.43.213",
+      "port": 6443,
+      "uuid": "157bb36f-035e-405c-b8c6-67fa1a7c0640",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "github.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+        "shortId": "abab34c40ed6c10a",
+        "serverName": "github.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "95.85.234.126",
+      "port": 443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.google.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA",
+        "shortId": "25425ff6fa",
+        "serverName": "www.google.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "77.239.97.82",
+      "port": 443,
+      "uuid": "c50212a9-4037-40e5-8ad8-169a8e3c9f2e",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.microsoft.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "TwnzMOCZbqlEGJtYPlo503WsDnckJYGXP3n2NJh3tUg",
+        "shortId": "d89f0e39",
+        "serverName": "www.microsoft.com",
+        "spiderX": "/"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | [BL]",
+      "type": "vless",
+      "server": "fx3033.game2lizard.com",
+      "port": 2083,
+      "uuid": "41f37ced-2021-4111-93a8-82d57ff2eb5b",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "mzaxmc0.lizard2shop.com",
+        "alpn": [
+          "networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/",
+        "headers": {
+          "Host": "mzaxmc0.lizard2shop.com"
+        }
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "fx3033.game2lizard.com",
+      "port": 2083,
+      "uuid": "41f37ced-2021-4111-93a8-82d57ff2eb5b",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "mzaxmc0.lizard2shop.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/",
+        "headers": {
+          "Host": "mzaxmc0.lizard2shop.com"
+        }
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "156.243.246.185",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "156.243.246.185",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "156.243.246.185",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "185.207.198.99",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "185.207.198.99",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "185.207.198.99",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "193.22.229.226",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "91.209.253.247",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+      "type": "vless",
+      "server": "91.209.253.247",
+      "port": 443,
+      "uuid": "9a98146a-235c-40ed-9633-a67fe3bf9f18",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudflare.dns.xn--q9jyb4c",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇭🇰 Hong Kong, Hong Kong | [BL]",
+      "type": "vless",
+      "server": "47.86.55.200",
+      "port": 19321,
+      "uuid": "394086c4-d8a4-4298-9b62-f70fa711082d",
+      "network": "tcp",
+      "tls": false
+    },
+    {
+      "name": "🇭🇰 Hong Kong, Hong Kong | [BL]",
+      "type": "vless",
+      "server": "47.82.87.196",
+      "port": 50724,
+      "uuid": "47030ea3-4e8c-4dd6-b440-418a7a54c1a0",
+      "network": "tcp",
+      "tls": false
+    },
+    {
+      "name": "🇭🇰 Hong Kong, Hong Kong | [BL]",
+      "type": "vless",
+      "server": "47.82.87.196",
+      "port": 50724,
+      "uuid": "47030ea3-4e8c-4dd6-b440-418a7a54c1a0",
+      "network": "tcp",
+      "tls": false
+    },
+    {
+      "name": "🇮🇳 India | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.193.57",
+      "port": 80,
+      "uuid": "InternetAzadRobot-AliKiller",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇮🇳 India | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.129.57",
+      "port": 80,
+      "uuid": "TIGNAL-CRYPTO",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇮🇳 India | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.193.57",
+      "port": 80,
+      "uuid": "TIGNAL-CRYPTO",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇮🇳 India | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.129.57",
+      "port": 80,
+      "uuid": "TOFAN-TRADE",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇮🇳 India | 🌐 | [BL]",
+      "type": "vless",
+      "server": "151.101.193.57",
+      "port": 80,
+      "uuid": "TOFAN-TRADE",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇮🇳 India, Ujjain | [BL]",
+      "type": "vless",
+      "server": "45.88.183.64",
+      "port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "network": "grpc",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cdn.kwork.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+        "shortId": "10f786a2491b2cd5",
+        "serverName": "cdn.kwork.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇮🇹 Italy, Arezzo | [BL]",
+      "type": "vless",
+      "server": "it.n1etwork.prostosetup.org",
+      "port": 443,
+      "uuid": "725dbc91-a8b7-4816-a386-83e2bfbec189",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "github.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "Nb99ZU29q7aI02rE_bSjlXAHj_U51NoLL0JEx6ohqjM",
+        "shortId": "bcb6b9117a1206c3",
+        "serverName": "github.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇮🇹 Italy, Milan | [BL]",
+      "type": "vless",
+      "server": "fastly.com",
+      "port": 80,
+      "uuid": "InternetAzadRobot",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇵🇱 Poland, Warsaw | 🌐 | [BL]",
+      "type": "vless",
+      "server": "mzone.pl.3cloudhost.com",
+      "port": 443,
+      "uuid": "f3368578-8389-458d-9aee-08dc350c5230",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "mzone.pl.3cloudhost.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8",
+        "shortId": "",
+        "serverName": "mzone.pl.3cloudhost.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇸🇬 Singapore, Singapore | [BL]",
+      "type": "vless",
+      "server": "tsp.1000shores.cn",
+      "port": 17799,
+      "uuid": "a96937c3-d791-4908-f3ad-31355592ef60",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "tsp.1000shores.cn",
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇪🇸 Spain, Barcelona | [BL]",
+      "type": "vless",
+      "server": "162.248.162.249",
+      "port": 443,
+      "uuid": "157bb36f-035e-405c-b8c6-67fa1a7c0640",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "github.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+        "shortId": "abab34c40ed6c10a",
+        "serverName": "github.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇪🇸 Spain, Barcelona | [BL]",
+      "type": "vless",
+      "server": "162.248.162.249",
+      "port": 6443,
+      "uuid": "157bb36f-035e-405c-b8c6-67fa1a7c0640",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "github.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+        "shortId": "abab34c40ed6c10a",
+        "serverName": "github.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇸🇪 Sweden, Stockholm | [BL]",
+      "type": "vless",
+      "server": "185.177.239.95",
+      "port": 14793,
+      "uuid": "74efe911-4e11-44ac-b9a8-c8b4caf42ea7",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.sony.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "LL5elMmIL4PZMio6uuBGuZoToOURQdGqnaL8-aIyFAw",
+        "shortId": "26adc84e61c1",
+        "serverName": "www.sony.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇸🇪 Sweden, Stockholm | [BL]",
+      "type": "vless",
+      "server": "ru.srv.vpnza300.org",
+      "port": 443,
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "ru.srv.vpnza300.org",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+        "shortId": "6eda877655137aff",
+        "serverName": "ru.srv.vpnza300.org",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇸🇪 Sweden, Stockholm | [BL]",
+      "type": "vless",
+      "server": "sw.srv.vpnza300.org",
+      "port": 443,
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "sw.srv.vpnza300.org",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+        "shortId": "6eda877655137aff",
+        "serverName": "sw.srv.vpnza300.org",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇨🇭 Switzerland, Geneva | 🌐 | [BL]",
+      "type": "vless",
+      "server": "83.228.240.230",
+      "port": 7443,
+      "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
+      "network": "grpc",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "colorlib.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+        "shortId": "",
+        "serverName": "colorlib.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇨🇭 Switzerland, Geneva | 🌐 | [BL]",
+      "type": "vless",
+      "server": "l10.l-itx.info",
+      "port": 2053,
+      "uuid": "5da05cf7-9913-45a9-a7c6-71a41b1cd713",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "itx-server.digital",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/ws",
+        "headers": {
+          "Host": "itx-server.digital"
+        }
+      }
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "78.17.198.65",
+      "port": 18443,
+      "uuid": "228ecfd3-9bf0-42fd-a50e-581f84022513",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.ozone.nl",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "09dnS8j39kek1dupFOV_NgLaQPwP46W8dAqt8IaTO1Y",
+        "shortId": "c914a1c62903b4a2",
+        "serverName": "www.ozone.nl",
+        "spiderX": "/iqxMzf6LT7rPdBd"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "185.244.49.224",
+      "port": 42346,
+      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.tradingview.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "0xOy6LYcvRIbgXBDMSV0ZiuJPi_hf2e7FV4icmsQYQY",
+        "shortId": "8b5017a8",
+        "serverName": "www.tradingview.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "78.17.198.65",
+      "port": 18443,
+      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "ozone.nl",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "09dnS8j39kek1dupFOV_NgLaQPwP46W8dAqt8IaTO1Y",
+        "shortId": "e18bf817",
+        "serverName": "ozone.nl",
+        "spiderX": "/AZKECumTOxgbvfM"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "45.149.234.236",
+      "port": 443,
+      "uuid": "9f7a44b8-617c-46de-bbe0-152e52570d69",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "linksys.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "BagDycRtQvlxTnortyehYkwB6e-SJwboi2STJLKKAX8",
+        "shortId": "99a9b78d171c04cb",
+        "serverName": "linksys.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "185.31.200.224",
+      "port": 5980,
+      "uuid": "b01c7e1f-a82e-4610-95b8-6a6edf8d6381",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "surfvpn24.ru",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "cwqkZmmI9pDPzKCCcqNxw3G68FFv4tkXFhSozmYfrgU",
+        "shortId": "beefcafe",
+        "serverName": "surfvpn24.ru",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "144.124.228.113",
+      "port": 443,
+      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "nl3.panel11.ru",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4",
+        "shortId": "e069bfaf9ba2069c",
+        "serverName": "nl3.panel11.ru",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "146.103.121.166",
+      "port": 443,
+      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "nl2.panel11.ru",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "N1HRDSdKHqdbSX_N5SUfFiokXcN-jQzu-Na244bA21I",
+        "shortId": "c64556c616970b14",
+        "serverName": "nl2.panel11.ru",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "v843042.hosted-by-vdsina.com",
+      "port": 443,
+      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "v843042.hosted-by-vdsina.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "wlYNxgezkkjoIEXATEBsOo7rZu5qkQaCOqDrysvuGR4",
+        "shortId": "46e746366ed5c1b9",
+        "serverName": "v843042.hosted-by-vdsina.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "v843042.hosted-by-vdsina.com",
+      "port": 443,
+      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "v843042.hosted-by-vdsina.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "wlYNxgezkkjoIEXATEBsOo7rZu5qkQaCOqDrysvuGR4",
+        "shortId": "46e746366ed5c1b9",
+        "serverName": "v843042.hosted-by-vdsina.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | [BL]",
+      "type": "vless",
+      "server": "195.85.23.82",
+      "port": 2087,
+      "uuid": "fc0bdb3b-c61f-4e91-8eb7-9d2a9993fe03",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "pOn.cCnnX.IR",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia",
+        "headers": {
+          "Host": "pOn.cCnnX.IR"
+        }
+      }
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
+      "type": "vless",
+      "server": "104.245.243.3",
+      "port": 443,
+      "uuid": "37a47219-f12e-416a-a3fc-cc27603ffc25",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "res.cdn.office.net",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "safari"
+      },
+      "reality-settings": {
+        "publicKey": "0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc",
+        "shortId": "",
+        "serverName": "res.cdn.office.net",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
+      "type": "vless",
+      "server": "cdn3-87.vk-cdnvideo.com",
+      "port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cdn3-87.vk-cdnvideo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      }
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Amsterdam (Westpoort) | 🌐 | [BL]",
+      "type": "vless",
+      "server": "45.67.136.184",
+      "port": 7443,
+      "uuid": "54a54ea0-4409-4030-ad9b-44c45849c05a",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "stackoverflow.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
+        "shortId": "be0ce047",
+        "serverName": "stackoverflow.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "89.105.208.116",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "89.105.208.116",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "89.105.208.117",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "89.105.208.118",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "89.105.208.118",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "89.105.208.120",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g10.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g10.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g10.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇳🇱 The Netherlands, Doetinchem | [BL]",
+      "type": "vless",
+      "server": "g3.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g3.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g3.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇹🇷 Turkey | 🌐 | [BL]",
+      "type": "vless",
+      "server": "ru9.aimodelhub.top",
+      "port": 443,
+      "uuid": "b85b1e90-b5ed-0002-b433-bf9d2eca0e42",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "ru9.aimodelhub.top",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "jwT3lcIzJQMjzBKRNsmyRGrgaa1qNfE7pQF_nAKu0GA",
+        "shortId": "a73cf719b624",
+        "serverName": "ru9.aimodelhub.top",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇬🇧 United Kingdom | 🌐 | [BL]",
+      "type": "vless",
+      "server": "fastly.com",
+      "port": 80,
+      "uuid": "da48859d-edf9-4a8c-a026-80910591f284",
+      "network": "xhttp",
+      "tls": false
+    },
+    {
+      "name": "🇬🇧 United Kingdom, Martlesham (Martlesham Heath) | [BL]",
+      "type": "vless",
+      "server": "31.76.119.133",
+      "port": 443,
+      "uuid": "7193bdae-58d9-42be-93a7-94c60f14bf86",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudrynth.com",
+        "alpn": [
+          "networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
+        "shortId": "",
+        "serverName": "cloudrynth.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇬🇧 United Kingdom, Martlesham (Martlesham Heath) | [BL]",
+      "type": "vless",
+      "server": "31.76.119.133",
+      "port": 443,
+      "uuid": "7193bdae-58d9-42be-93a7-94c60f14bf86",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "cloudrynth.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
+        "shortId": "",
+        "serverName": "cloudrynth.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇺🇸 United States | 🌐 | [BL]",
+      "type": "vless",
+      "server": "us01.lumixvpn.org",
+      "port": 443,
+      "uuid": "107d9e9e-5634-44ef-a90b-c5118832fae6",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "us01.lumixvpn.org",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "Y4TRkvxDmVR_iIvCTHiixPYnkHVYxMI4d2P5HsXnaBk",
+        "shortId": "06341ef4c0fb6507",
+        "serverName": "us01.lumixvpn.org",
+        "spiderX": "/"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇺🇸 United States | 🌐 | [BL]",
+      "type": "vless",
+      "server": "us01.lumixvpn.org",
+      "port": 443,
+      "uuid": "107d9e9e-5634-44ef-a90b-c5118832fae6",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "us01.lumixvpn.org",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "qq"
+      },
+      "reality-settings": {
+        "publicKey": "Y4TRkvxDmVR_iIvCTHiixPYnkHVYxMI4d2P5HsXnaBk",
+        "shortId": "06341ef4c0fb6507",
+        "serverName": "us01.lumixvpn.org",
+        "spiderX": "/"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇺🇸 United States | 🌐 | [BL]",
+      "type": "vless",
+      "server": "77.110.124.90",
+      "port": 8443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.google.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "Nlsu3xrYPB9ePk3pkcCPJbsuhsLrmAOeXMKaNAZyOww",
+        "shortId": "97783a46",
+        "serverName": "www.google.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇺🇸 United States, Charlotte | [BL]",
+      "type": "vless",
+      "server": "77.110.124.170",
+      "port": 6443,
+      "uuid": "157bb36f-035e-405c-b8c6-67fa1a7c0640",
+      "network": "xhttp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "github.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+        "shortId": "abab34c40ed6c10a",
+        "serverName": "github.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🇺🇸 United States, Santa Clara | [BL]",
+      "type": "vless",
+      "server": "45.38.3.229",
+      "port": 18443,
+      "uuid": "228ecfd3-9bf0-42fd-a50e-581f84022513",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "miro.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YoVxvwAP6l4vRG9HZmePBcHxy9oaRyWKmp1fIXVzPAY",
+        "shortId": "95c4ddb4face78",
+        "serverName": "miro.com",
+        "spiderX": "/8on9As4sjEnE7RH"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇺🇸 United States, Santa Clara | [BL]",
+      "type": "vless",
+      "server": "45.38.3.229",
+      "port": 18443,
+      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "miro.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "YoVxvwAP6l4vRG9HZmePBcHxy9oaRyWKmp1fIXVzPAY",
+        "shortId": "95c4ddb4face78",
+        "serverName": "miro.com",
+        "spiderX": "/1wh1L4yN9ZRlpSf"
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇷🇺 Russia, Bugry | [BL]",
+      "type": "vless",
+      "server": "45.9.14.156",
+      "port": 18543,
+      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.zvuk.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "random"
+      },
+      "reality-settings": {
+        "publicKey": "N6QQQTEXQaXI9PRxOYdlnsdviaLwu4eP4sIq9ifz5VM",
+        "shortId": "fb0839b3bc1d6e",
+        "serverName": "www.zvuk.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🇷🇺 Russia, Moscow | [BL]",
+      "type": "vless",
+      "server": "147.45.150.199",
+      "port": 443,
+      "uuid": "c4d69096-4026-4da5-9485-20a3da91cb14",
+      "network": "grpc",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.aviasales.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "d24ax4dGUXqJMY0a4_2W_Y5SbEH2XrrQ3_AcxGa4QFw",
+        "shortId": "c42e8eee",
+        "serverName": "www.aviasales.com",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+      "type": "vless",
+      "server": "129.6.29.255",
+      "port": 443,
+      "uuid": "19804f6b-3661-4eca-b294-ba37196dab5b",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "graph.instagram.com.cyylr.eu.cc",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/id-tksi",
+        "headers": {
+          "Host": "graph.instagram.com.cyylr.eu.cc"
+        }
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+      "type": "vless",
+      "server": "202.37.33.81",
+      "port": 443,
+      "uuid": "3b01a777-55e7-49f6-8637-d94ee69607c6",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "m.udemy.com.cyylr.eu.cc",
+        "alpn": [
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/id-tksi",
+        "headers": {
+          "Host": "m.udemy.com.cyylr.eu.cc"
+        }
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+      "type": "vless",
+      "server": "202.37.33.81",
+      "port": 443,
+      "uuid": "3b01a777-55e7-49f6-8637-d94ee69607c6",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "m.udemy.com.cyylr.eu.cc",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/id-tksi",
+        "headers": {
+          "Host": "m.udemy.com.cyylr.eu.cc"
+        }
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+      "type": "vless",
+      "server": "202.37.33.81",
+      "port": 443,
+      "uuid": "3b01a777-55e7-49f6-8637-d94ee69607c6",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "m.udemy.com.cyylr.eu.cc",
+        "alpn": [
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/id-tksi",
+        "headers": {
+          "Host": "m.udemy.com.cyylr.eu.cc"
+        }
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇮🇩 | [BL]",
+      "type": "vless",
+      "server": "129.6.29.255",
+      "port": 443,
+      "uuid": "19804f6b-3661-4eca-b294-ba37196dab5b",
+      "network": "ws",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "graph.instagram.com.cyylr.eu.cc",
+        "alpn": [
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "ws-settings": {
+        "path": "/id-tksi",
+        "headers": {
+          "Host": "graph.instagram.com.cyylr.eu.cc"
+        }
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇦 🇸🇬 | [BL]",
+      "type": "vless",
+      "server": "mx0wbu.sgvless.yydzx.xyz",
+      "port": 443,
+      "uuid": "2219a1b1-9290-4ac5-94fd-6cfc1fb25280",
+      "network": "raw",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "deb.debian.org",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA",
+        "shortId": "7994d24409820c44",
+        "serverName": "deb.debian.org",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇨🇿 🇱🇻 | [BL]",
+      "type": "vless",
+      "server": "vip.starservices.lol",
+      "port": 3082,
+      "uuid": "6f122bf8-65b5-43c5-a0be-5719cd842ff3",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "www.nvidia.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "QKTZSC0lg00iBLqnvSSmU8m5KaoOIcIsbMQtWwfTvkE",
+        "shortId": "b0725c69",
+        "serverName": "www.nvidia.com",
+        "spiderX": "/FikspM18hB4tQPG"
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇩🇪 🇫🇷 | [BL]",
+      "type": "vless",
+      "server": "fr-node.prostosetup.org",
+      "port": 443,
+      "uuid": "725dbc91-a8b7-4816-a386-83e2bfbec189",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "tradingview.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "ZSFjVI9pyqawgPY_0shmNRdTdwfBBFWRMPcrKIzyHSw",
+        "shortId": "509d",
+        "serverName": "tradingview.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇩🇪 🇱🇺 | [BL]",
+      "type": "vless",
+      "server": "5.175.141.9",
+      "port": 2095,
+      "uuid": "23bdeba2-5e59-43d3-a770-b23a52200e18",
+      "network": "httpupgrade",
+      "tls": false
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇩🇪 🇳🇱 | [BL]",
+      "type": "vless",
+      "server": "0ru35.tcpdoor.net",
+      "port": 7443,
+      "uuid": "c4d69096-4026-4da5-9485-20a3da91cb14",
+      "network": "grpc",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "video.tcpnet.fun",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "firefox"
+      },
+      "reality-settings": {
+        "publicKey": "qj9jDHuvhBV15-FoXJ42Qe_ZkvppLY0KHTS1SAlZgmg",
+        "shortId": "9510ee26",
+        "serverName": "video.tcpnet.fun",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇩🇪 🇳🇱 | [BL]",
+      "type": "vless",
+      "server": "91.210.169.233",
+      "port": 7443,
+      "uuid": "c4d69096-4026-4da5-9485-20a3da91cb14",
+      "network": "grpc",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "video.tcpnet.fun",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "qj9jDHuvhBV15-FoXJ42Qe_ZkvppLY0KHTS1SAlZgmg",
+        "shortId": "9510ee26",
+        "serverName": "video.tcpnet.fun",
+        "spiderX": ""
+      }
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇫🇮 🇬🇧 | [BL]",
+      "type": "vless",
+      "server": "31.76.53.0",
+      "port": 443,
+      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "google.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8",
+        "shortId": "",
+        "serverName": "google.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇫🇮 🇬🇧 | [BL]",
+      "type": "vless",
+      "server": "31.76.53.0",
+      "port": 443,
+      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "google.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "random"
+      },
+      "reality-settings": {
+        "publicKey": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8",
+        "shortId": "",
+        "serverName": "google.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+      "type": "vless",
+      "server": "g6.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g6.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g6.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+      "type": "vless",
+      "server": "g7.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g7.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g7.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+      "type": "vless",
+      "server": "g8.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g8.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g8.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+      "type": "vless",
+      "server": "g9.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g9.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "chrome"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g9.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+      "type": "vless",
+      "server": "g9.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g9.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g9.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "name": "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+      "type": "vless",
+      "server": "g9.steptofsvo.com",
+      "port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "network": "tcp",
+      "tls": true,
+      "tls-settings": {
+        "serverName": "g9.steptofsvo.com",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "allowInsecure": false,
+        "fingerprint": "randomized"
+      },
+      "reality-settings": {
+        "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+        "shortId": "6d6f13013d3e1d0c",
+        "serverName": "g9.steptofsvo.com",
+        "spiderX": ""
+      },
+      "flow": "xtls-rprx-vision"
+    }
+  ],
+  "groups": [
+    {
+      "name": "🇷🇺 Russia Auto",
+      "type": "select",
+      "proxies": [
+        "🇦🇹 Austria, Vienna | [BL]",
+        "🇨🇿 Czechia, Mašťov | [BL]",
+        "🇨🇿 Czechia, Prague | [BL]",
+        "🇪🇪 Estonia, Tallinn | [BL]",
+        "🇫🇮 Finland, Helsinki | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Strasbourg | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India, Ujjain | [BL]",
+        "🇮🇹 Italy, Arezzo | [BL]",
+        "🇮🇹 Italy, Milan | [BL]",
+        "🇵🇱 Poland, Warsaw | 🌐 | [BL]",
+        "🇸🇬 Singapore, Singapore | [BL]",
+        "🇪🇸 Spain, Barcelona | [BL]",
+        "🇪🇸 Spain, Barcelona | [BL]",
+        "🇸🇪 Sweden, Stockholm | [BL]"
+      ]
+    },
+    {
+      "name": "🔄 Auto Fallback",
+      "type": "url-test",
+      "url": "https://www.google.com/generate_204",
+      "interval": 300,
+      "tolerance": 50,
+      "proxies": [
+        "🇦🇹 Austria, Vienna | [BL]",
+        "🇨🇿 Czechia, Mašťov | [BL]",
+        "🇨🇿 Czechia, Prague | [BL]",
+        "🇪🇪 Estonia, Tallinn | [BL]",
+        "🇫🇮 Finland, Helsinki | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇮 Finland, Helsinki | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Gravelines | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Roubaix | 🌐 | [BL]",
+        "🇫🇷 France, Strasbourg | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
+        "🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇩🇪 Germany, Nuremberg | 🌐 | [BL]",
+        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇭🇰 Hong Kong, Hong Kong | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India | 🌐 | [BL]",
+        "🇮🇳 India, Ujjain | [BL]",
+        "🇮🇹 Italy, Arezzo | [BL]",
+        "🇮🇹 Italy, Milan | [BL]",
+        "🇵🇱 Poland, Warsaw | 🌐 | [BL]",
+        "🇸🇬 Singapore, Singapore | [BL]",
+        "🇪🇸 Spain, Barcelona | [BL]",
+        "🇪🇸 Spain, Barcelona | [BL]",
+        "🇸🇪 Sweden, Stockholm | [BL]",
+        "🇸🇪 Sweden, Stockholm | [BL]",
+        "🇸🇪 Sweden, Stockholm | [BL]",
+        "🇨🇭 Switzerland, Geneva | 🌐 | [BL]",
+        "🇨🇭 Switzerland, Geneva | 🌐 | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
+        "🇳🇱 The Netherlands, Amsterdam (Westpoort) | 🌐 | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇳🇱 The Netherlands, Doetinchem | [BL]",
+        "🇹🇷 Turkey | 🌐 | [BL]",
+        "🇬🇧 United Kingdom | 🌐 | [BL]",
+        "🇬🇧 United Kingdom, Martlesham (Martlesham Heath) | [BL]",
+        "🇬🇧 United Kingdom, Martlesham (Martlesham Heath) | [BL]",
+        "🇺🇸 United States | 🌐 | [BL]",
+        "🇺🇸 United States | 🌐 | [BL]",
+        "🇺🇸 United States | 🌐 | [BL]",
+        "🇺🇸 United States, Charlotte | [BL]",
+        "🇺🇸 United States, Santa Clara | [BL]",
+        "🇺🇸 United States, Santa Clara | [BL]",
+        "🇷🇺 Russia, Bugry | [BL]",
+        "🇷🇺 Russia, Moscow | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇫🇮 🇮🇩 | [BL]",
+        "🌐 Anycast-IP | 🇨🇦 🇸🇬 | [BL]",
+        "🌐 Anycast-IP | 🇨🇿 🇱🇻 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇫🇷 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇱🇺 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇳🇱 | [BL]",
+        "🌐 Anycast-IP | 🇩🇪 🇳🇱 | [BL]",
+        "🌐 Anycast-IP | 🇫🇮 🇬🇧 | [BL]",
+        "🌐 Anycast-IP | 🇫🇮 🇬🇧 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]",
+        "🌐 Anycast-IP | 🇬🇧 🇱🇻 | [BL]"
+      ]
+    }
+  ]
+}
